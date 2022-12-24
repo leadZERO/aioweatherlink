@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+        "name": "Python: Main Program (debug)",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/aioweatherlink.py",
+        "args": ["-vv"]
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+        "name": "Python: Main Program",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/src/aioweatherlink.py"
+    }
+  ]
+}
